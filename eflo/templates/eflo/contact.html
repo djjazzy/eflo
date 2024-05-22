@@ -1,0 +1,17 @@
+{% extends "eflo/layout.html" %}
+{% block title %}
+Contact
+{% endblock %}
+{% block content %}
+<h2 class="lead-in">Get in touch with me...</h2>
+{% load static %}
+<img id="micon" src="{% static 'eflo/imgs/mail-icon.png' %}" />
+<a id="mtext" href = "mailto: abc@example.com">abc@example.com</a>
+<h2 class="lead-in">Or leave a message...</h2>
+
+<form method="POST" class="log-form">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="save btn btn-default">Save Message</button>
+</form>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends "eflo/layout.html" %}
+{% block title %}
+Work History
+{% endblock %}
+{% block content %}
+<h2 class="lead-in">Resume and Keywords</h2>
+{% load static %}
+<div id="keywords">
+    <p id="pkword">
+        {% for keyword in keyword_list %}
+        <span class="kword"><a class="kwurl" href="{{ keyword.kword_link }}" target="_blank">{{ keyword.kword }}</a></span>
+        {% endfor %}
+    </p>
+</div>
+<hr/>
+{% if job_list %}
+<table class="job_table">
+    {% for job in job_list %}
+    <tr class="job_entry">
+        <td class="job_logo"><img class="job-pic" src="{% static 'eflo/imgs/' %}{{ job.job_logo }}" /></td>
+        <td>
+            <table>
+            <tr><td class="job_title">{{ job.job_title }}</td></tr>
+            <tr><td class="job_description">{{ job.job_description }}</td></tr>
+            </table>
+        </td>
+        <td>
+            <table>
+            <tr><td class="job_date">{{ job.job_start | date:'Y' }} - {{ job.job_end | date:'Y' }}</td></tr>
+            </table>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+    <p>database empty</p>
+{% endif %}
+{% endblock %}

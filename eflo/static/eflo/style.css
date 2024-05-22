@@ -1,0 +1,169 @@
+html {
+    background-color: #0f0f0f;
+}
+
+#mypic {
+    height: auto; 
+    width: auto; 
+    max-width: 120px; 
+    max-height: 120px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#myname {
+    font-size: 30px;
+}
+
+#mytitle {
+    margin-bottom: 10px;
+}
+
+#asulogo {
+    height: auto; 
+    width: auto; 
+    max-width: 70px; 
+    max-height: 70px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 15px;
+}
+
+#degree {
+    margin-top: 35px;
+}
+
+header {
+    background-color: #0f0f0f;
+    height: 8em;
+    color: white;
+}
+
+.navbar {
+    background-color: #232d3f;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 8px 5px 8px 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-brand {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.navbar-item {
+    font-variant: small-caps;
+    margin-left: 30px;
+}
+
+.body-content {
+    padding: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #005b41;
+}
+
+.lead-in {
+    margin-left: 20px;
+}
+
+.info_box {
+    width: 50%;
+    margin-left: 60px;
+    padding: 15px;
+    background-color: #232d3f;
+    border-radius: 15px;
+}
+
+#keywords {
+    margin-left: 60px;
+    width: 80%;
+}
+
+#pkword {
+    line-height: 45px;
+}
+
+.kword {
+    background-color: #232d3f;
+    padding: 7px;
+    border-radius: 12px;
+    margin-left: 5px;
+}
+
+.kwurl {
+    color: white;
+    font-size: 15px;
+
+}
+
+td {
+    padding: 10px;
+}
+
+.job_table {
+    margin-left: 60px;
+    margin-top: 30px;
+    background-color: #232d3f;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.job-pic {
+    height: auto; 
+    width: auto; 
+    max-width: 180px; 
+    max-height: 180px;
+    border-radius: 8px;
+}
+
+.job_entry {
+    border-bottom: 10px;
+    border-color: white;
+}
+
+.job_logo {
+    width: 150px;
+    height: 150px;
+}
+
+.job_title {
+    width: 80%;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.job_date {
+    min-width: 100px;
+}
+
+#micon {
+    margin-left: 60px;
+}
+
+#mtext {
+    color: white;
+}
+
+.log-form {
+    margin-left: 60px;
+}
+
+input[name=message] {
+    width: 30%;
+    height: 10em;
+}
+
+footer {
+    background-color: #008170;
+    height: 5em;
+}
