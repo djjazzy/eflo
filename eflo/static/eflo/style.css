@@ -42,7 +42,10 @@ header {
 }
 
 .navbar {
-    background-color: #232d3f;
+    /*background-color: #232d3f;*/
+    background-color: #0f0f0f;
+    border-top: 2px solid #b5aa0e;
+    border-bottom: 2px solid #b5aa0e;
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
@@ -68,7 +71,7 @@ header {
     padding: 5px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    background-color: #005b41;
+    background-color: #0f0f0f;
 }
 
 .lead-in {
@@ -164,6 +167,6 @@ input[name=message] {
 }
 
 footer {
-    background-color: #008170;
+    background-color: #0f0f0f;
     height: 5em;
 }
