@@ -1,5 +1,6 @@
 html {
     background-color: #0f0f0f;
+    
 }
 
 #mypic {
@@ -28,6 +29,13 @@ html {
     max-height: 70px;
     border-radius: 15px;
     float: left;
+    margin-right: 15px;
+}
+
+#pcba {
+    height: auto;
+    width: auto;
+    max-width: 800px;
     margin-right: 15px;
 }
 
@@ -71,7 +79,11 @@ header {
     padding: 5px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    background-color: #0f0f0f;
+    /*background-color: #0f0f0f;*/
+    background-image: url("imgs/ebrd.png");
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
 }
 
 .lead-in {
@@ -84,6 +96,7 @@ header {
     padding: 15px;
     background-color: #232d3f;
     border-radius: 15px;
+    opacity: 70%;
 }
 
 #keywords {
@@ -110,6 +123,7 @@ header {
 
 td {
     padding: 10px;
+   /* border:1px solid #b5aa0e; */
 }
 
 .job_table {
@@ -119,6 +133,9 @@ td {
     padding: 20px;
     border-radius: 15px;
     width: 80%;
+    opacity: 70%;
+    border-collapse:collapse;
+    border:3px solid #b5aa0e;
 }
 
 .job-pic {
@@ -132,6 +149,7 @@ td {
 .job_entry {
     border-bottom: 10px;
     border-color: white;
+    border:3px solid #b5aa0e;
 }
 
 .job_logo {
@@ -147,6 +165,8 @@ td {
 
 .job_date {
     min-width: 100px;
+    font-weight: bold;
+    font-size: large;
 }
 
 #micon {
@@ -168,5 +188,5 @@ input[name=message] {
 
 footer {
     background-color: #0f0f0f;
-    height: 5em;
+    height: 10em;
 }
